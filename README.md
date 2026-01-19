@@ -65,7 +65,7 @@ flowchart TD
 *Рис. 1. Алгоритм формирования отчета*
 
 **5\. Реализация SQL**
-```t-sql
+```tsql
 -- 1. Выборка плановых данных из OMS
 SELECT
     CONVERT(VARCHAR, oh.OrderDate, 104) AS OrderDate,
